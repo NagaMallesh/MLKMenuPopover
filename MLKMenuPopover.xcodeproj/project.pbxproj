@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40DD86AE1A1E0A6500C5FC9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD86AD1A1E0A6500C5FC9C /* main.m */; };
+		40DD86B11A1E0A6500C5FC9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD86B01A1E0A6500C5FC9C /* AppDelegate.m */; };
+		40DD86B71A1E0A6500C5FC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86B51A1E0A6500C5FC9C /* Main.storyboard */; };
+		40DD86B91A1E0A6500C5FC9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86B81A1E0A6500C5FC9C /* Images.xcassets */; };
+		40DD86BC1A1E0A6500C5FC9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86BA1A1E0A6500C5FC9C /* LaunchScreen.xib */; };
+		40DD86C81A1E0A6500C5FC9C /* MLKMenuPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD86C71A1E0A6500C5FC9C /* MLKMenuPopoverTests.m */; };
+		40DD86D51A1E0B3300C5FC9C /* MLKMenuPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD86D41A1E0B3300C5FC9C /* MLKMenuPopover.m */; };
+		40DD86D81A1E0B4900C5FC9C /* MLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DD86D71A1E0B4900C5FC9C /* MLKViewController.m */; };
+		40DD86DA1A1E0B9D00C5FC9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DD86D91A1E0B9D00C5FC9C /* QuartzCore.framework */; };
+		40DD86E11A1E165200C5FC9C /* DefaultLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86DC1A1E165200C5FC9C /* DefaultLine.png */; };
+		40DD86E21A1E165200C5FC9C /* Menu_PopOver_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86DD1A1E165200C5FC9C /* Menu_PopOver_BG.png */; };
+		40DD86E31A1E165200C5FC9C /* Menu_PopOver_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86DE1A1E165200C5FC9C /* Menu_PopOver_BG@2x.png */; };
+		40DD86E41A1E165200C5FC9C /* options_pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86DF1A1E165200C5FC9C /* options_pointer.png */; };
+		40DD86E51A1E165200C5FC9C /* options_pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DD86E01A1E165200C5FC9C /* options_pointer@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40DD86C21A1E0A6500C5FC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DD86A01A1E0A6500C5FC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DD86A71A1E0A6500C5FC9C;
+			remoteInfo = MLKMenuPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40DD86A81A1E0A6500C5FC9C /* MLKMenuPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLKMenuPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DD86AC1A1E0A6500C5FC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DD86AD1A1E0A6500C5FC9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40DD86AF1A1E0A6500C5FC9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40DD86B01A1E0A6500C5FC9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40DD86B61A1E0A6500C5FC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40DD86B81A1E0A6500C5FC9C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40DD86BB1A1E0A6500C5FC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40DD86C11A1E0A6500C5FC9C /* MLKMenuPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLKMenuPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DD86C61A1E0A6500C5FC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DD86C71A1E0A6500C5FC9C /* MLKMenuPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLKMenuPopoverTests.m; sourceTree = "<group>"; };
+		40DD86D31A1E0B3300C5FC9C /* MLKMenuPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKMenuPopover.h; sourceTree = "<group>"; };
+		40DD86D41A1E0B3300C5FC9C /* MLKMenuPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKMenuPopover.m; sourceTree = "<group>"; };
+		40DD86D61A1E0B4900C5FC9C /* MLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKViewController.h; sourceTree = "<group>"; };
+		40DD86D71A1E0B4900C5FC9C /* MLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKViewController.m; sourceTree = "<group>"; };
+		40DD86D91A1E0B9D00C5FC9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		40DD86DC1A1E165200C5FC9C /* DefaultLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultLine.png; sourceTree = "<group>"; };
+		40DD86DD1A1E165200C5FC9C /* Menu_PopOver_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu_PopOver_BG.png; sourceTree = "<group>"; };
+		40DD86DE1A1E165200C5FC9C /* Menu_PopOver_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu_PopOver_BG@2x.png"; sourceTree = "<group>"; };
+		40DD86DF1A1E165200C5FC9C /* options_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options_pointer.png; sourceTree = "<group>"; };
+		40DD86E01A1E165200C5FC9C /* options_pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options_pointer@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DD86A51A1E0A6500C5FC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD86DA1A1E0B9D00C5FC9C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD86BE1A1E0A6500C5FC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DD869F1A1E0A6500C5FC9C = {
+			isa = PBXGroup;
+			children = (
+				40DD86AA1A1E0A6500C5FC9C /* MLKMenuPopover */,
+				40DD86C41A1E0A6500C5FC9C /* MLKMenuPopoverTests */,
+				40DD86A91A1E0A6500C5FC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40DD86A91A1E0A6500C5FC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86A81A1E0A6500C5FC9C /* MLKMenuPopover.app */,
+				40DD86C11A1E0A6500C5FC9C /* MLKMenuPopoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DD86AA1A1E0A6500C5FC9C /* MLKMenuPopover */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86AF1A1E0A6500C5FC9C /* AppDelegate.h */,
+				40DD86B01A1E0A6500C5FC9C /* AppDelegate.m */,
+				40DD86D11A1E0B0F00C5FC9C /* MenuPopover */,
+				40DD86D21A1E0B0F00C5FC9C /* MLKViewController */,
+				40DD86DB1A1E165200C5FC9C /* Images */,
+				40DD86B51A1E0A6500C5FC9C /* Main.storyboard */,
+				40DD86B81A1E0A6500C5FC9C /* Images.xcassets */,
+				40DD86BA1A1E0A6500C5FC9C /* LaunchScreen.xib */,
+				40DD86AB1A1E0A6500C5FC9C /* Supporting Files */,
+			);
+			path = MLKMenuPopover;
+			sourceTree = "<group>";
+		};
+		40DD86AB1A1E0A6500C5FC9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86AC1A1E0A6500C5FC9C /* Info.plist */,
+				40DD86AD1A1E0A6500C5FC9C /* main.m */,
+				40DD86D91A1E0B9D00C5FC9C /* QuartzCore.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40DD86C41A1E0A6500C5FC9C /* MLKMenuPopoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86C71A1E0A6500C5FC9C /* MLKMenuPopoverTests.m */,
+				40DD86C51A1E0A6500C5FC9C /* Supporting Files */,
+			);
+			path = MLKMenuPopoverTests;
+			sourceTree = "<group>";
+		};
+		40DD86C51A1E0A6500C5FC9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86C61A1E0A6500C5FC9C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40DD86D11A1E0B0F00C5FC9C /* MenuPopover */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86D31A1E0B3300C5FC9C /* MLKMenuPopover.h */,
+				40DD86D41A1E0B3300C5FC9C /* MLKMenuPopover.m */,
+			);
+			path = MenuPopover;
+			sourceTree = "<group>";
+		};
+		40DD86D21A1E0B0F00C5FC9C /* MLKViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86D61A1E0B4900C5FC9C /* MLKViewController.h */,
+				40DD86D71A1E0B4900C5FC9C /* MLKViewController.m */,
+			);
+			path = MLKViewController;
+			sourceTree = "<group>";
+		};
+		40DD86DB1A1E165200C5FC9C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				40DD86DC1A1E165200C5FC9C /* DefaultLine.png */,
+				40DD86DD1A1E165200C5FC9C /* Menu_PopOver_BG.png */,
+				40DD86DE1A1E165200C5FC9C /* Menu_PopOver_BG@2x.png */,
+				40DD86DF1A1E165200C5FC9C /* options_pointer.png */,
+				40DD86E01A1E165200C5FC9C /* options_pointer@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DD86A71A1E0A6500C5FC9C /* MLKMenuPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DD86CB1A1E0A6500C5FC9C /* Build configuration list for PBXNativeTarget "MLKMenuPopover" */;
+			buildPhases = (
+				40DD86A41A1E0A6500C5FC9C /* Sources */,
+				40DD86A51A1E0A6500C5FC9C /* Frameworks */,
+				40DD86A61A1E0A6500C5FC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLKMenuPopover;
+			productName = MLKMenuPopover;
+			productReference = 40DD86A81A1E0A6500C5FC9C /* MLKMenuPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40DD86C01A1E0A6500C5FC9C /* MLKMenuPopoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DD86CE1A1E0A6500C5FC9C /* Build configuration list for PBXNativeTarget "MLKMenuPopoverTests" */;
+			buildPhases = (
+				40DD86BD1A1E0A6500C5FC9C /* Sources */,
+				40DD86BE1A1E0A6500C5FC9C /* Frameworks */,
+				40DD86BF1A1E0A6500C5FC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DD86C31A1E0A6500C5FC9C /* PBXTargetDependency */,
+			);
+			name = MLKMenuPopoverTests;
+			productName = MLKMenuPopoverTests;
+			productReference = 40DD86C11A1E0A6500C5FC9C /* MLKMenuPopoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DD86A01A1E0A6500C5FC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = NagaMalleswar;
+				TargetAttributes = {
+					40DD86A71A1E0A6500C5FC9C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					40DD86C01A1E0A6500C5FC9C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 40DD86A71A1E0A6500C5FC9C;
+					};
+				};
+			};
+			buildConfigurationList = 40DD86A31A1E0A6500C5FC9C /* Build configuration list for PBXProject "MLKMenuPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DD869F1A1E0A6500C5FC9C;
+			productRefGroup = 40DD86A91A1E0A6500C5FC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DD86A71A1E0A6500C5FC9C /* MLKMenuPopover */,
+				40DD86C01A1E0A6500C5FC9C /* MLKMenuPopoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DD86A61A1E0A6500C5FC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD86B71A1E0A6500C5FC9C /* Main.storyboard in Resources */,
+				40DD86BC1A1E0A6500C5FC9C /* LaunchScreen.xib in Resources */,
+				40DD86E41A1E165200C5FC9C /* options_pointer.png in Resources */,
+				40DD86E31A1E165200C5FC9C /* Menu_PopOver_BG@2x.png in Resources */,
+				40DD86B91A1E0A6500C5FC9C /* Images.xcassets in Resources */,
+				40DD86E11A1E165200C5FC9C /* DefaultLine.png in Resources */,
+				40DD86E21A1E165200C5FC9C /* Menu_PopOver_BG.png in Resources */,
+				40DD86E51A1E165200C5FC9C /* options_pointer@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD86BF1A1E0A6500C5FC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DD86A41A1E0A6500C5FC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD86D51A1E0B3300C5FC9C /* MLKMenuPopover.m in Sources */,
+				40DD86D81A1E0B4900C5FC9C /* MLKViewController.m in Sources */,
+				40DD86B11A1E0A6500C5FC9C /* AppDelegate.m in Sources */,
+				40DD86AE1A1E0A6500C5FC9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD86BD1A1E0A6500C5FC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD86C81A1E0A6500C5FC9C /* MLKMenuPopoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40DD86C31A1E0A6500C5FC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DD86A71A1E0A6500C5FC9C /* MLKMenuPopover */;
+			targetProxy = 40DD86C21A1E0A6500C5FC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40DD86B51A1E0A6500C5FC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DD86B61A1E0A6500C5FC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40DD86BA1A1E0A6500C5FC9C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DD86BB1A1E0A6500C5FC9C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40DD86C91A1E0A6500C5FC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40DD86CA1A1E0A6500C5FC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DD86CC1A1E0A6500C5FC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLKMenuPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40DD86CD1A1E0A6500C5FC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLKMenuPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40DD86CF1A1E0A6500C5FC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MLKMenuPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLKMenuPopover.app/MLKMenuPopover";
+			};
+			name = Debug;
+		};
+		40DD86D01A1E0A6500C5FC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MLKMenuPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLKMenuPopover.app/MLKMenuPopover";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DD86A31A1E0A6500C5FC9C /* Build configuration list for PBXProject "MLKMenuPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD86C91A1E0A6500C5FC9C /* Debug */,
+				40DD86CA1A1E0A6500C5FC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DD86CB1A1E0A6500C5FC9C /* Build configuration list for PBXNativeTarget "MLKMenuPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD86CC1A1E0A6500C5FC9C /* Debug */,
+				40DD86CD1A1E0A6500C5FC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DD86CE1A1E0A6500C5FC9C /* Build configuration list for PBXNativeTarget "MLKMenuPopoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD86CF1A1E0A6500C5FC9C /* Debug */,
+				40DD86D01A1E0A6500C5FC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DD86A01A1E0A6500C5FC9C /* Project object */;
+}
